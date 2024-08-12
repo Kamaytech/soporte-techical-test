@@ -2,7 +2,9 @@
 ### **Instrucciones Generales**
 
 1. El aspirante debe crear una base de datos postgres local y recrear las tabla impuesto,cliente,producto,cpedidos,dpedidos para lo cual se adjunta sentencia SQL .
+2. El aspirante debe poblar las tablas creadas con el SQL adjunto
 
+### **Creacion de tablas**
   ```sql
 CREATE TABLE impuesto (
     imp_id SERIAL PRIMARY KEY,
