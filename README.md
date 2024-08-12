@@ -4,7 +4,8 @@
 1. El aspirante debe crear una base de datos postgres local y recrear las tabla impuesto,cliente,producto,cpedidos,dpedidos para lo cual se adjunta sentencia SQL(Creacion de tablas).
 2. El aspirante debe poblar las tablas creadas con el SQL adjunto(Poblar Tablas).
 3. Elaborar reporte y actualizacion de informacion(Interaccion con Base de datos).
-4. El aspirante debe adjuntar las sentenicas SQL que utilizo para resolver cada punto en Interaccion con Base de datos
+4. El aspirante debe adjuntar al repositorio las sentenicas SQL que utilizo para resolver cada punto en Interaccion con Base de datos
+5. Una vez concluida la prueba se debe enviar el repositorio al correo electronico talento@kamaytech.com 
 
 ### **Informacion general de tablas**
 -Impuesto: contiene informacion de impuesto aplicado a aun pedido, 12%, 15%, en base a este porcentaje se debe calcular el impuesto en cpedido
@@ -19,7 +20,7 @@ La estructura dada es cabecera(cpedidos), detalle(dpedidos)
 
 ### **Interaccion con Base de datos**
 1. Actualizar totales de la cabecera de pedidos: cpe_subtotal	cpe_impuesto	cpe_total
-2. Actualizar el impuesto a 15% de los pedidos del mes Julio y agosto
+2. Actualizar el impuesto a 15% de los pedidos del mes Julio y agosto, Se debe recalcular subtotal,iva y total de las cabeceras 
 3. Elaborar un reporte de pedidos de clientes, el pedido debe contener cliente, mes, valor total(CON IMPUESTO) ordenado por mes, y valor de pedido de manera descendente
 4. Elaborar un reporte con clientes que mas compraron en los ultimos 4 meses.
 5. Actualizar la cantidad de unidades a 2 en todos los productos que correspondan a los pedidos 28,29,30, Se debe recalcular subtotal,iva y total de las cabeceras 
